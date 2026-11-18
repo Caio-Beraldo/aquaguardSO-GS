@@ -102,6 +102,6 @@ Cada pasta de `evidencias/` contém prints das ferramentas de administração.
 ```
 README.md
 web/          index.html, health.json, web.config (aplicação web)
-docs/         roteiro de configuração e arquitetura de soluções (ArchiMate)
+docs/         roteiro de configuração
 evidencias/   prints das ferramentas (01 a 08)
 ```
