@@ -1,0 +1,11 @@
+﻿
+Name               DistinguishedName                     
+----               -----------------                     
+Domain Controllers OU=Domain Controllers,DC=corp,DC=local
+Usuarios           OU=Usuarios,DC=corp,DC=local          
+Computadores       OU=Computadores,DC=corp,DC=local      
+Grupos             OU=Grupos,DC=corp,DC=local            
+GS                 OU=GS,DC=corp,DC=local                
+
+
+

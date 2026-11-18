@@ -1,0 +1,43 @@
+﻿
+CollectionName                 Size  ResourceType       CollectionType    CollectionDescription                                                           
+--------------                 ----  ------------       --------------    ---------------------                                                           
+CT-Aquaguard                   1     RemoteApp programs PooledUnmanaged   Acesso remoto a Aquaguard CitizenTech                                           
+
+CollectionName      : CT-Aquaguard
+Alias               : msedge
+DisplayName         : Aquaguard CitizenTech
+FolderName          : 
+FilePath            : C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+FileVirtualPath     : C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+CommandLineSetting  : Require
+RequiredCommandLine : http://Aquaguard.corp.local
+IconContents        : {0, 0, 1, 0...}
+IconIndex           : 0
+IconPath            : C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+UserGroups          : 
+ShowInWebAccess     : True
+
+
+ServerName       : SRV01.corp.local
+SessionId        : 1
+UserName         : teste
+DomainName       : CORP
+ServerIPAddress  : 10.0.2.10
+TSProtocol       : 0
+ApplicationType  : 
+ResolutionWidth  : 640
+ResolutionHeight : 480
+ColorDepth       : 2
+CreateTime       : 11/18/2026 1:49:08 PM
+DisconnectTime   : 
+SessionState     : STATE_ACTIVE
+CollectionName   : CT-Aquaguard
+CollectionType   : RD_FARM_RDSH
+UnifiedSessionId : 1
+HostServer       : SRV01.corp.local
+IdleTime         : 0
+RemoteFxEnabled  : 
+
+
+
+

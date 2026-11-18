@@ -1,0 +1,13 @@
+﻿Domain Controllers
+
+DisplayName                       Enabled
+-----------                       -------
+Default Domain Controllers Policy    True
+Usuarios
+Computadores
+Grupos
+GS
+GPO-USR-Bloquear-Painel              True
+
+
+

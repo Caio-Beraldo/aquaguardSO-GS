@@ -1,0 +1,170 @@
+﻿SRV01
+
+Wednesday, November 18, 2026 12:37:54 PM
+
+ComputerName         : SRV01
+InterfaceAlias       : Ethernet
+InterfaceIndex       : 5
+InterfaceDescription : Intel(R) PRO/1000 MT Desktop Adapter
+CompartmentId        : 1
+NetAdapter           : MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{07C9F051-C0EB-46E4-95CE-A3ADE796B25A}", SystemCreationClassName = "CIM_NetworkPort", SystemName = 
+                       "SRV01.corp.local")
+NetCompartment       : MSFT_NetCompartment (InstanceID = ";55;")
+NetIPv6Interface     : MSFT_NetIPInterface (Name = "?55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = "")
+NetIPv4Interface     : MSFT_NetIPInterface (Name = "?55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = "")
+NetProfile           : MSFT_NetConnectionProfile (InstanceID = "{07C9F051-C0EB-46E4-95CE-A3ADE796B25A}")
+AllIPAddresses       : {10.0.2.10, fe80::cd0d:9f4f:ac39:8d6b%5}
+IPv6Address          : {}
+IPv6TemporaryAddress : {}
+IPv6LinkLocalAddress : {fe80::cd0d:9f4f:ac39:8d6b%5}
+IPv4Address          : {10.0.2.10}
+IPv6DefaultGateway   : 
+IPv4DefaultGateway   : {MSFT_NetRoute (InstanceID = ":8:8:8:9:55?55;:8:8?8;55;")}
+DNSServer            : {MSFT_DNSClientServerAddress (Name = "5", CreationClassName = "", SystemCreationClassName = "", SystemName = "23"), MSFT_DNSClientServerAddress (Name = "5", CreationClassName = 
+                       "", SystemCreationClassName = "", SystemName = "2")}
+Detailed             : False
+
+
+Name : AD-Domain-Services
+
+
+Name : DHCP
+
+
+Name : DNS
+
+
+Name : FileAndStorage-Services
+
+
+Name : File-Services
+
+
+Name : FS-FileServer
+
+
+Name : FS-DFS-Namespace
+
+
+Name : Storage-Services
+
+
+Name : Web-Server
+
+
+Name : Web-WebServer
+
+
+Name : Web-Common-Http
+
+
+Name : Web-Default-Doc
+
+
+Name : Web-Dir-Browsing
+
+
+Name : Web-Http-Errors
+
+
+Name : Web-Static-Content
+
+
+Name : Web-Health
+
+
+Name : Web-Http-Logging
+
+
+Name : Web-Performance
+
+
+Name : Web-Stat-Compression
+
+
+Name : Web-Security
+
+
+Name : Web-Filtering
+
+
+Name : Web-Mgmt-Tools
+
+
+Name : Web-Mgmt-Console
+
+
+Name : NET-Framework-45-Features
+
+
+Name : NET-Framework-45-Core
+
+
+Name : NET-WCF-Services45
+
+
+Name : NET-WCF-TCP-PortSharing45
+
+
+Name : GPMC
+
+
+Name : Windows-Defender
+
+
+Name : RSAT
+
+
+Name : RSAT-Role-Tools
+
+
+Name : RSAT-AD-Tools
+
+
+Name : RSAT-AD-PowerShell
+
+
+Name : RSAT-ADDS
+
+
+Name : RSAT-AD-AdminCenter
+
+
+Name : RSAT-ADDS-Tools
+
+
+Name : RSAT-DHCP
+
+
+Name : RSAT-DNS-Server
+
+
+Name : RSAT-File-Services
+
+
+Name : RSAT-DFS-Mgmt-Con
+
+
+Name : System-DataArchiver
+
+
+Name : WindowsAdminCenterSetup
+
+
+Name : PowerShellRoot
+
+
+Name : PowerShell
+
+
+Name : Wireless-Networking
+
+
+Name : WoW64-Support
+
+
+Name : XPS-Viewer
+
+
+
+

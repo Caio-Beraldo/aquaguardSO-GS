@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Enchentes | Aquaguard</title>
+<meta name="description" content="Aquaguard: plataforma de alertas georreferenciados de enchentes para moradores e Defesas Civis.">
+<style>
+:root{
+  --navy:#0a2540; --blue:#0b6bcb; --sky:#e8f2fc; --ink:#14263a; --muted:#51647a;
+  --line:#d9e3ee; --bg:#f6f9fc; --card:#fff; --warn:#d97706; --ok:#0f8a4b; --danger:#c2410c;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy);font-size:18px}
+.brand svg{width:28px;height:28px}
+nav ul{display:flex;gap:22px;list-style:none;font-size:14px;color:var(--muted)}
+nav ul a:hover{color:var(--blue)}
+@media(max-width:720px){nav ul{display:none}}
+
+.hero{background:linear-gradient(160deg,var(--navy) 0%,#0d3a66 60%,#0b5aa8 100%);color:#fff;position:relative;overflow:hidden}
+.hero .wrap{padding:84px 20px 120px;position:relative;z-index:1}
+.tag{display:inline-block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:99px;margin-bottom:22px}
+.hero h1{font-size:clamp(40px,7vw,68px);line-height:1.05;letter-spacing:-.02em;margin-bottom:18px}
+.hero p.lead{font-size:clamp(17px,2.2vw,21px);max-width:640px;color:#d4e4f6;margin-bottom:30px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 22px;border-radius:8px;font-weight:600;font-size:15px;border:1px solid transparent;display:inline-block}
+.btn.primary{background:#fff;color:var(--navy)}
+.btn.primary:hover{background:var(--sky)}
+.btn.ghost{border-color:rgba(255,255,255,.4);color:#fff}
+.btn.ghost:hover{background:rgba(255,255,255,.1)}
+.wave{position:absolute;left:0;right:0;bottom:-1px;line-height:0}
+.wave svg{display:block;width:100%;height:70px}
+
+.stats{margin-top:-52px;position:relative;z-index:2}
+.stats .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 20px;box-shadow:0 6px 18px rgba(10,37,64,.08)}
+.stat b{display:block;font-size:34px;line-height:1.1;color:var(--blue);letter-spacing:-.02em}
+.stat span{display:block;font-size:14px;color:var(--muted);margin-top:6px}
+@media(max-width:860px){.stats .grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.stats .grid{grid-template-columns:1fr}}
+
+section{padding:76px 0}
+section h2{font-size:clamp(26px,4vw,36px);color:var(--navy);letter-spacing:-.01em;margin-bottom:10px}
+section .sub{color:var(--muted);max-width:680px;margin-bottom:34px;font-size:17px}
+.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.alt .card{background:var(--bg)}
+.ico{width:42px;height:42px;border-radius:10px;background:var(--sky);color:var(--blue);display:grid;place-items:center;margin-bottom:14px}
+.ico svg{width:22px;height:22px}
+.card h3{font-size:18px;color:var(--navy);margin-bottom:6px}
+.card p{font-size:15px;color:var(--muted)}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{position:relative;padding:22px 20px 20px;background:var(--card);border:1px solid var(--line);border-radius:12px;counter-increment:s}
+.step::before{content:counter(s);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:14px;margin-bottom:12px}
+.step h3{font-size:17px;color:var(--navy);margin-bottom:4px}
+.step p{font-size:14.5px;color:var(--muted)}
+@media(max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+
+.demo{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center}
+@media(max-width:860px){.demo{grid-template-columns:1fr}}
+.alertbox{background:#fff7ed;border:1px solid #fed7aa;border-left:6px solid var(--warn);border-radius:12px;padding:22px}
+.alertbox small{color:var(--danger);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+.alertbox h3{font-size:21px;color:#7c2d12;margin:6px 0 8px}
+.alertbox p{color:#7c4a21;font-size:15px}
+.alertbox .meta{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:#7c4a21}
+.demonote{font-size:12.5px;color:var(--muted);margin-top:10px}
+ul.check{list-style:none}
+ul.check li{padding-left:28px;position:relative;margin-bottom:12px;color:var(--ink)}
+ul.check li::before{content:"\2713";position:absolute;left:0;top:1px;width:19px;height:19px;border-radius:50%;background:var(--blue);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center;line-height:1}
+
+.infra{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.chip b{display:block;color:var(--navy);font-size:15px}
+.chip span{color:var(--muted);font-size:13px}
+
+.status{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px}
+.dot{width:12px;height:12px;border-radius:50%;background:#9aa8b8;flex:none}
+.dot.ok{background:var(--ok);box-shadow:0 0 0 6px rgba(15,138,75,.15)}
+.dot.bad{background:#dc2626;box-shadow:0 0 0 6px rgba(220,38,38,.15)}
+.status b{color:var(--navy)}
+.status small{color:var(--muted);margin-left:auto;font-size:13px}
+
+footer{background:var(--navy);color:#b9cce0;padding:44px 0 30px;font-size:14px}
+footer h4{color:#fff;font-size:15px;margin-bottom:8px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;margin-bottom:26px}
+@media(max-width:720px){footer .cols{grid-template-columns:1fr}}
+footer .fonte{border-top:1px solid rgba(255,255,255,.14);padding-top:16px;font-size:12.5px;color:#8fa8c2}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#topo">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0b6bcb"/><path d="M5 19c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 4 3M5 25c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 4 3" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="9" r="3" fill="#fff"/></svg>
+      Aquaguard
+    </a>
+    <ul>
+      <li><a href="#problema">O problema</a></li>
+      <li><a href="#solucao">Solução</a></li>
+      <li><a href="#como">Como funciona</a></li>
+      <li><a href="#infra">Infraestrutura</a></li>
+      <li><a href="#status">Status</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="topo">
+  <div class="wrap">
+    <span class="tag">Projeto AlertaCheia Brasil</span>
+    <h1>Enchentes</h1>
+    <p class="lead">Informação certa, na rua certa, a tempo de agir. Uma plataforma que transforma dados hidrometeorológicos em alertas georreferenciados para moradores e Defesas Civis.</p>
+    <div class="btns">
+      <a class="btn primary" href="#solucao">Conheça a solução</a>
+      <a class="btn ghost" href="#problema">Entenda o problema</a>
+    </div>
+  </div>
+  <div class="wave"><svg viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path fill="#f6f9fc" d="M0 40c120 26 240 26 360 8s240-34 360-30 240 38 360 40 240-22 360-30V70H0z"/></svg></div>
+</header>
+
+<div class="stats" id="problema">
+  <div class="wrap">
+    <div class="grid">
+      <div class="stat"><b>336.656</b><span>pessoas diretamente afetadas por desastres climáticos em 2025</span></div>
+      <div class="stat"><b>2.095</b><span>dos 5.570 municípios expostos a riscos geo-hidrológicos</span></div>
+      <div class="stat"><b>251</b><span>mortes por chuvas em 2024, o 4º ano mais letal desde 1991</span></div>
+      <div class="stat"><b>+222%</b><span>de crescimento dos desastres climáticos desde os anos 1990</span></div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>O problema</h2>
+    <p class="sub">O Brasil tem monitoramento e Defesa Civil, mas a informação ainda chega tarde, genérica e fragmentada para quem está na linha de frente.</p>
+    <div class="cards">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Alerta tardio</h3><p>O aviso costuma chegar por município ou região, sem tempo útil para quem mora na zona de risco.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h6"/></svg></div><h3>Dados fragmentados</h3><p>Chuva, nível de rios, mapas de risco e relatos da população ficam em sistemas diferentes.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Sem orientação</h3><p>Receber o aviso não basta: o morador precisa saber qual rota é segura e onde fica o abrigo.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Ponto cego de campo</h3><p>A Defesa Civil raramente recebe relatos georreferenciados do que acontece na rua em tempo real.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="solucao">
+  <div class="wrap">
+    <h2>A solução</h2>
+    <p class="sub">O Aquaguard cruza dados oficiais com a localização do cidadão e entrega alertas segmentados por área, com orientação do que fazer.</p>
+    <div class="demo">
+      <ul class="check">
+        <li><b>Alerta georreferenciado:</b> aviso por rua ou bairro, com meta de entrega em até 5 minutos.</li>
+        <li><b>Rota segura e abrigo:</b> orientação de evacuação para o ponto mais próximo.</li>
+        <li><b>Reporte colaborativo:</b> o morador registra alagamentos e bloqueios com localização e foto.</li>
+        <li><b>Painel da Defesa Civil:</b> visão consolidada do risco, aprovação e disparo de alertas.</li>
+        <li><b>Canais redundantes:</b> push, SMS e Cell Broadcast quando a internet cai.</li>
+        <li><b>Privacidade:</b> consentimento de localização e conformidade com a LGPD.</li>
+      </ul>
+      <div>
+        <div class="alertbox" role="note">
+          <small>Alerta de enchente · exemplo</small>
+          <h3>Risco alto de transbordamento no seu bairro</h3>
+          <p>Evite áreas baixas e dirija-se ao abrigo mais próximo pela rota indicada no mapa.</p>
+          <div class="meta"><span>Severidade: alta</span><span>Área: margem do rio</span><span>Válido por 3 h</span></div>
+        </div>
+        <p class="demonote">Conteúdo ilustrativo, apenas demonstração do protótipo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="como">
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <p class="sub">Da previsão ao morador em quatro passos, com decisão final sempre humana pela Defesa Civil.</p>
+    <div class="steps">
+      <div class="step"><h3>Monitorar</h3><p>Integração com dados hidrometeorológicos oficiais e histórico de ocorrências.</p></div>
+      <div class="step"><h3>Avaliar</h3><p>Motor de risco estima a gravidade por área e recomenda o alerta.</p></div>
+      <div class="step"><h3>Aprovar e alertar</h3><p>A Defesa Civil confirma e dispara o aviso por polígono e canais múltiplos.</p></div>
+      <div class="step"><h3>Orientar</h3><p>O morador recebe rota segura e abrigo, e reporta o que vê no local.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Quem se beneficia</h2>
+    <p class="sub">Uma solução pensada para quem decide e para quem sofre o impacto.</p>
+    <div class="cards">
+      <div class="card"><h3>Moradores de áreas de risco</h3><p>Mais tempo para agir, orientação clara e menos perdas humanas e materiais.</p></div>
+      <div class="card"><h3>Defesas Civis</h3><p>Alertas segmentados, relatos de campo e visão consolidada para decidir melhor.</p></div>
+      <div class="card"><h3>Prefeituras e gestores</h3><p>Histórico e mapa de calor para priorizar obras, prevenção e recursos.</p></div>
+      <div class="card"><h3>Voluntários e ONGs</h3><p>Informação de demanda por localidade para apoiar resgate e abrigo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="infra">
+  <div class="wrap">
+    <h2>Infraestrutura</h2>
+    <p class="sub">Esta plataforma roda sobre uma infraestrutura Windows Server com monitoramento e recuperação automática de falhas.</p>
+    <div class="infra">
+      <div class="chip"><b>Active Directory</b><span>Domínio corp.local</span></div>
+      <div class="chip"><b>DNS</b><span>Resolução de nomes</span></div>
+      <div class="chip"><b>IIS</b><span>Hospedagem do portal</span></div>
+      <div class="chip"><b>File Server</b><span>Permissões NTFS</span></div>
+      <div class="chip"><b>DFS</b><span>Namespace \\corp.local\Arquivos</span></div>
+      <div class="chip"><b>GPO</b><span>Políticas de grupo</span></div>
+      <div class="chip"><b>RDS</b><span>Acesso remoto</span></div>
+      <div class="chip"><b>Monitor de Desempenho</b><span>Alertas de CPU, disco e memória</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="status">
+  <div class="wrap">
+    <h2>Status da plataforma</h2>
+    <p class="sub">Verificação ao vivo do servidor que hospeda este portal.</p>
+    <div class="status">
+      <span class="dot" id="dot"></span>
+      <div><b id="s">Verificando…</b><br><span id="h" style="color:var(--muted);font-size:14px"></span></div>
+      <small id="t"></small>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div><h4>Aquaguard</h4><p>Projeto acadêmico de arquitetura de soluções e infraestrutura Windows Server. Dados e alertas exibidos são demonstrativos.</p></div>
+      <div><h4>Equipe</h4><p>[Caio Costa Beraldo – RM560775] · [Victor Kenzo Mikado – RM560057] · [Ícaro Henrique de Souza Calixto – RM560278] · [Henrique Celso Moura da Paixão Filho – RM559687]</p></div>
+    </div>
+    <div class="fonte">Fontes dos números: Cemaden (relatório Estado do Clima, Extremos de Clima e Desastres no Brasil, 2025; balanço de 2024) e estudo sobre desastres climáticos com dados do S2iD.</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var dot=document.getElementById('dot'),s=document.getElementById('s'),h=document.getElementById('h'),t=document.getElementById('t');
+  function check(){
+    fetch('health.json?'+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+      dot.className='dot ok';s.textContent='Operacional';h.textContent='Servidor: '+d.servidor+' · '+d.servico;
+      t.textContent='Atualizado às '+new Date().toLocaleTimeString('pt-BR');
+    }).catch(function(){
+      dot.className='dot bad';s.textContent='Indisponível';h.textContent='Não foi possível consultar o servidor';
+      t.textContent='Verificado às '+new Date().toLocaleTimeString('pt-BR');
+    });
+  }
+  check();setInterval(check,15000);
+})();
+</script>
+</body>
+</html>

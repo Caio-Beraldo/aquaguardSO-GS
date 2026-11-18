@@ -1,0 +1,27 @@
+﻿
+Path                  Type      Properties   TimeToLiveSec State  Description
+----                  ----      ----------   ------------- -----  -----------
+\\corp.local\Arquivos Domain V2 Site Costing 300           Online            
+
+Description    : 
+Flags          : 
+NamespacePath  : \\corp.local\Arquivos\Publico
+State          : Online
+TimeToLive     : 1800
+PSComputerName : 
+Path           : \\corp.local\Arquivos\Publico
+TimeToLiveSec  : 1800
+
+
+NamespacePath         : \\corp.local\Arquivos
+ReferralPriorityClass : sitecost-normal
+ReferralPriorityRank  : 0
+State                 : Online
+TargetPath            : \\SRV01.corp.local\Arquivos
+PSComputerName        : 
+Path                  : \\corp.local\Arquivos
+
+True
+
+
+

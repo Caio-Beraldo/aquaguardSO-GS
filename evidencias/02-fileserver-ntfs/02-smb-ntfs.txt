@@ -1,0 +1,47 @@
+﻿
+Name       ScopeName Path                                        Description                      
+----       --------- ----                                        -----------                      
+ADMIN$     *         C:\WINDOWS                                  Remote Admin                     
+Arquivos   *         C:\DFSRoots\Arquivos                                                         
+C$         *         C:\                                         Default share                    
+E$         *         E:\                                         Default share                    
+Financeiro *         E:\Dados\Financeiro                                                          
+IPC$       *                                                     Remote IPC                       
+NETLOGON   *         C:\WINDOWS\SYSVOL\sysvol\corp.local\SCRIPTS Logon server share               
+projetos   *         E:\dados\projetos                           Arquivos dos projetos de software
+Publico    *         E:\Dados\Publico                                                             
+SYSVOL     *         C:\WINDOWS\SYSVOL\sysvol                    Logon server share               
+E:\Dados\Financeiro CORP\GG_Financeiro_RW:(OI)(CI)(M)
+                    BUILTIN\Administrators:(I)(OI)(CI)(F)
+                    NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                    CORP\teste:(I)(F)
+                    CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+                    BUILTIN\Users:(I)(OI)(CI)(RX)
+                    BUILTIN\Users:(I)(CI)(AD)
+                    BUILTIN\Users:(I)(CI)(WD)
+
+Successfully processed 1 files; Failed processing 0 files
+E:\Dados\Projetos CORP\GG_Projetos_Leitura:(OI)(CI)(RX)
+                  CORP\GG_Projetos_Modificar:(OI)(CI)(M)
+                  BUILTIN\Administrators:(I)(OI)(CI)(F)
+                  NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                  CORP\teste:(I)(F)
+                  CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+                  BUILTIN\Users:(I)(OI)(CI)(RX)
+                  BUILTIN\Users:(I)(CI)(AD)
+                  BUILTIN\Users:(I)(CI)(WD)
+
+Successfully processed 1 files; Failed processing 0 files
+E:\Dados\Publico CORP\GG_Publico_R:(OI)(CI)(RX)
+                 BUILTIN\Administrators:(I)(OI)(CI)(F)
+                 NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                 CORP\teste:(I)(F)
+                 CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+                 BUILTIN\Users:(I)(OI)(CI)(RX)
+                 BUILTIN\Users:(I)(CI)(AD)
+                 BUILTIN\Users:(I)(CI)(WD)
+
+Successfully processed 1 files; Failed processing 0 files
+
+
+

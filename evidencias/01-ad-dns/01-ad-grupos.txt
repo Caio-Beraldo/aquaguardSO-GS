@@ -1,0 +1,10 @@
+﻿
+Name             GroupScope
+----             ----------
+GG_Projetos_RW       Global
+GG_Publico_R         Global
+GG_Financeiro_RW     Global
+GG-GPO-Piloto        Global
+
+
+

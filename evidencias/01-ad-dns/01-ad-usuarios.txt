@@ -1,0 +1,16 @@
+﻿
+Name            SamAccountName Enabled
+----            -------------- -------
+Administrator   Administrator     True
+Guest           Guest            False
+teste           teste             True
+krbtgt          krbtgt           False
+Victor RM560057 aluno.edicao      True
+Caio RM560775   aluno.leitura     True
+Caio            caio_RM560775     True
+aluno.teste     aluno.teste       True
+SRV01                                 
+CLIENTE01                             
+
+
+

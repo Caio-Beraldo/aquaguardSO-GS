@@ -1,0 +1,125 @@
+﻿
+
+TimeCreated : 11/18/2026 3:08:23 PM
+Id          : 4000
+Message     : OK CPU 27% | Mem livre 1,006 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:07:19 PM
+Id          : 4000
+Message     : OK CPU 0% | Mem livre 1,028 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:06:19 PM
+Id          : 4000
+Message     : OK CPU 3% | Mem livre 1,206 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:05:19 PM
+Id          : 4000
+Message     : OK CPU 2% | Mem livre 1,178 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:04:19 PM
+Id          : 4000
+Message     : OK CPU 19% | Mem livre 1,217 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:03:18 PM
+Id          : 4000
+Message     : OK CPU % | Mem livre 1,240 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:02:19 PM
+Id          : 4000
+Message     : OK CPU 11% | Mem livre 1,269 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:01:23 PM
+Id          : 4000
+Message     : OK CPU 33% | Mem livre 1,243 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 3:00:18 PM
+Id          : 4000
+Message     : OK CPU % | Mem livre 1,187 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:59:24 PM
+Id          : 4000
+Message     : OK CPU 24% | Mem livre 1,254 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:58:18 PM
+Id          : 4000
+Message     : OK CPU 8% | Mem livre 1,263 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:57:18 PM
+Id          : 4000
+Message     : OK CPU 5% | Mem livre 1,245 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:56:21 PM
+Id          : 4000
+Message     : OK CPU 24% | Mem livre 1,240 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:55:18 PM
+Id          : 4000
+Message     : OK CPU 0% | Mem livre 1,250 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:54:23 PM
+Id          : 4000
+Message     : OK CPU 28% | Mem livre 1,263 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:53:18 PM
+Id          : 4000
+Message     : OK CPU % | Mem livre 1,277 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:52:24 PM
+Id          : 4000
+Message     : OK CPU 28% | Mem livre 1,318 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:51:19 PM
+Id          : 4000
+Message     : OK CPU 6% | Mem livre 1,054 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:50:20 PM
+Id          : 4000
+Message     : OK CPU 0% | Mem livre 1,054 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:49:19 PM
+Id          : 4000
+Message     : OK CPU 8% | Mem livre 1,084 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:48:19 PM
+Id          : 4000
+Message     : OK CPU 4% | Mem livre 1,080 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:47:19 PM
+Id          : 4000
+Message     : OK CPU 0% | Mem livre 1,103 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:46:19 PM
+Id          : 4000
+Message     : OK CPU 8% | Mem livre 1,094 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:45:20 PM
+Id          : 4000
+Message     : OK CPU 8% | Mem livre 1,087 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:44:18 PM
+Id          : 4000
+Message     : OK CPU 0% | Mem livre 1,100 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:43:19 PM
+Id          : 4000
+Message     : OK CPU 13% | Mem livre 1,102 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:42:23 PM
+Id          : 4000
+Message     : OK CPU 16% | Mem livre 1,094 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:41:19 PM
+Id          : 4000
+Message     : OK CPU 3% | Mem livre 1,088 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:40:17 PM
+Id          : 4000
+Message     : OK CPU % | Mem livre 1,064 MB | Disco livre 60%
+
+TimeCreated : 11/18/2026 2:39:18 PM
+Id          : 4000
+Message     : OK CPU 12% | Mem livre 1,112 MB | Disco livre 60%
+
+
+
+

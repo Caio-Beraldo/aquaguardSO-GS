@@ -1,0 +1,1446 @@
+﻿
+
+TimeCreated : 11/18/2026 2:41:07 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 2:40:58 PM
+Id          : 5001
+Message     : Falha detectada: Servico DFS parado. Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:40:09 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 2:40:02 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 404.0 - Not Found 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 404.0 - Not Found 
+                The resource you are looking for has been removed, had its name changed, or is temporarily unavailable. 
+               
+               
+               Most likely causes: 
+                 	The directory or file specified does not exist on the Web server. 	The URL contains a typographical error. 	A custom filter or module, such as URLScan, restricts access to the file. 
+               
+                
+               
+               
+               Things you can try: 
+                 	Create the content on the Web server. 	Review the browser URL. 	Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. 
+              For more information about creating a tracing rule for failed requests, click here.   
+                
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;IIS Web Core 
+                  Notification&nbsp;&nbsp;&nbsp;MapRequestHandler 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x80070002 
+                   
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+               
+               
+               More Information: 
+                This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:24:12 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 2:24:04 PM
+Id          : 5001
+Message     : Falha detectada: Servico DFS parado. Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:18:08 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 2:17:58 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 404.0 - Not Found 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 404.0 - Not Found 
+                The resource you are looking for has been removed, had its name changed, or is temporarily unavailable. 
+               
+               
+               Most likely causes: 
+                 	The directory or file specified does not exist on the Web server. 	The URL contains a typographical error. 	A custom filter or module, such as URLScan, restricts access to the file. 
+               
+                
+               
+               
+               Things you can try: 
+                 	Create the content on the Web server. 	Review the browser URL. 	Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. 
+              For more information about creating a tracing rule for failed requests, click here.   
+                
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;IIS Web Core 
+                  Notification&nbsp;&nbsp;&nbsp;MapRequestHandler 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x80070002 
+                   
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+               
+               
+               More Information: 
+                This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:03:11 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 2:02:54 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:01:51 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 2:01:44 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:00:51 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 2:00:44 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 2:00:01 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:59:50 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Aquaguard\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://aquaguard.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Aquaguard\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:48:13 PM
+Id          : 5002
+Message     : Servicos recuperados automaticamente.
+
+TimeCreated : 11/18/2026 1:48:04 PM
+Id          : 5001
+Message     : Falha detectada: DFS: \\corp.local\Arquivos\Publico inacessivel. Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:18:55 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:18:47 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:17:50 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:17:43 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:16:55 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:16:46 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:15:56 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:15:45 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:14:48 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:14:42 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+TimeCreated : 11/18/2026 1:13:55 PM
+Id          : 5003
+Message     : Recuperacao falhou: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              
+
+TimeCreated : 11/18/2026 1:13:46 PM
+Id          : 5001
+Message     : Falha detectada: IIS:  
+               
+               
+              IIS 10.0 Detailed Error - 500.19 - Internal Server Error 
+               
+               
+               
+               
+               
+               
+               
+               
+                HTTP Error 500.19 - Internal Server Error 
+                The requested page cannot be accessed because the related configuration data for the page is invalid. 
+               
+               
+               
+               Detailed Error Information: 
+                 
+                  
+                  Module&nbsp;&nbsp;&nbsp;CustomErrorModule 
+                  Notification&nbsp;&nbsp;&nbsp;SendResponse 
+                  Handler&nbsp;&nbsp;&nbsp;StaticFile 
+                  Error Code&nbsp;&nbsp;&nbsp;0x800700b7 
+                  Config Error&nbsp;&nbsp;&nbsp;Cannot add duplicate collection entry of type 'mimeMap' with unique key attribute 'fileExtension' set to '.json'
+               
+              Config File&nbsp;&nbsp;&nbsp;\\?\C:\Sites\Intranet\web.config 
+                  
+                 
+                 
+                  
+                  Requested URL&nbsp;&nbsp;&nbsp;http://intranet.corp.local:80/health.json 
+                  Physical Path&nbsp;&nbsp;&nbsp;C:\Sites\Intranet\health.json 
+                  Logon Method&nbsp;&nbsp;&nbsp;Anonymous 
+                  Logon User&nbsp;&nbsp;&nbsp;Anonymous 
+                   
+                  
+                  
+                 
+                
+               
+                 
+                   
+                  Config Source: 
+                      2: &lt;configuration&gt;&lt;system.webServer&gt;
+                  3: &lt;staticContent&gt;&lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/json&quot; /&gt;&lt;/staticContent&gt;
+                  4: &lt;httpProtocol&gt;&lt;customHeaders&gt;&lt;add name=&quot;X-Content-Type-Options&quot; value=&quot;nosniff&quot; /&gt;&lt;add name=&quot;X-Frame-Options&quot; 
+              value=&quot;SAMEORIGIN&quot; /&gt;&lt;/customHeaders&gt;&lt;/httpProtocol&gt;
+               
+                   
+                 
+               
+               
+               More Information: 
+                This error occurs when there is a problem reading the configuration file for the Web server or Web application. In some cases, the event logs may contain more information about what 
+              caused this error. 
+                View more information &raquo; 
+                 
+                
+               
+               
+               
+               
+              . Iniciando recuperacao.
+
+
+
+

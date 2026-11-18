@@ -1,0 +1,90 @@
+﻿
+ZoneName                            ZoneType        IsAutoCreated   IsDsIntegrated  IsReverseLookupZone  IsSigned       
+--------                            --------        -------------   --------------  -------------------  --------       
+_msdcs.corp.local                   Primary         False           True            False                False          
+0.in-addr.arpa                      Primary         True            False           True                 False          
+127.in-addr.arpa                    Primary         True            False           True                 False          
+255.in-addr.arpa                    Primary         True            False           True                 False          
+corp.local                          Primary         False           True            False                False          
+rm560775.local                      Primary         False           False           False                False          
+TrustAnchors                        Primary         False           False           False                False          
+
+DistinguishedName : DC=@,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : @
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 11/18/2026 12:00:00 PM
+TimeToLive        : 00:10:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=CLIENTE01,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : CLIENTE01
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 10/5/2026 5:00:00 PM
+TimeToLive        : 00:20:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=DomainDnsZones,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : DomainDnsZones
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 11/18/2026 12:00:00 PM
+TimeToLive        : 00:10:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=ForestDnsZones,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : ForestDnsZones
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 11/18/2026 12:00:00 PM
+TimeToLive        : 00:10:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=aquaguard,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : aquaguard
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 
+TimeToLive        : 01:00:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=srv-rm560775,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : srv-rm560775
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 
+TimeToLive        : 01:00:00
+Type              : 1
+PSComputerName    : 
+
+
+DistinguishedName : DC=srv01,DC=corp.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=corp,DC=local
+HostName          : srv01
+RecordClass       : IN
+RecordData        : DnsServerResourceRecordA
+RecordType        : A
+Timestamp         : 
+TimeToLive        : 01:00:00
+Type              : 1
+PSComputerName    : 
+
+
+
+

@@ -1,0 +1,12 @@
+﻿
+DisplayName                                GpoStatus ModificationTime      
+-----------                                --------- ----------------      
+Default Domain Policy             AllSettingsEnabled 9/22/2026 11:35:10 AM 
+GPO-RDP-GS                        AllSettingsEnabled 11/18/2026 11:35:50 AM
+GG-GPO-Piloto                     AllSettingsEnabled 11/18/2026 10:12:02 AM
+Default Domain Controllers Policy AllSettingsEnabled 10/5/2026 7:20:00 PM  
+GPO-DFS                           AllSettingsEnabled 11/18/2026 11:55:06 AM
+GPO-USR-Bloquear-Painel           AllSettingsEnabled 11/18/2026 10:47:16 AM
+
+
+
