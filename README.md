@@ -1,4 +1,4 @@
-# CitizenTech – Infraestrutura Windows Server
+# Aquaguard – Infraestrutura Windows Server
 
 Infraestrutura Windows Server que hospeda a aplicação web da solução **CitizenTech** (plataforma de alertas de enchentes, projeto AlertaCheia Brasil). O ambiente aplica os serviços do semestre (DNS, Active Directory, File Server, DFS, IIS, GPO e RDS), é monitorado pelo Monitor de Desempenho e se recupera automaticamente de falhas.
 
